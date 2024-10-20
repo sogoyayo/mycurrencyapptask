@@ -2,7 +2,7 @@ import { FooterSocialLinks } from "./footer-social-links";
 
 export const GetInTouch = () => {
   return (
-    <div className="space-y-2 lg:space-y-6">
+    <div className="space-y-2 lg:space-y-6 xl:pl-10">
       <h3 className="font-semibold uppercase text-white">Get in Touch</h3>{" "}
       <div className="space-y-3 lg:space-y-8">
         <p className="text-slate-400">Feel free to get in touch with us vai email</p>

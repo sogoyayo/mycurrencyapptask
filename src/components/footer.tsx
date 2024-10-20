@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="mb-20">
           <img className="w-auto h-20 mx-auto" src={CompanyLogo} alt="" />
         </div>
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:gap-16">
+        <div className="grid grid-cols-1 gap-8 xl:grid-cols-3 xl:gap-12 xl:divide-x xl:divide-slate-500">
           <div className="rounded-lg lg:col-span-2">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-[min-content,min-content,1fr] lg:gap-16">
               <FooterLinks title="Company" links={footer_links.company} />
